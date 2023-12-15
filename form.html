@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/image.html">Images</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/form.html">Forms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/table.html">Table</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <h3>This is web dev enrollment forms!</h3>
+<div class = container>
+    
+    <form>
+       <label for="name"> Name :</label> 
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Are you eligible?: <input type="checkbox" name="myEligibility" unchecked>
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div>
+
+        <br>
+        <div>
+            Write about yourself: <br><textarea name="myText" cols="90" rows="10"></textarea>
+        </div>
+
+        <br>
+        <div>
+            <label for="Courses">Courses Available : </label>
+            <select name="myCourse" id="Courses">
+                <option value="html" selected>Html</option>
+                <option value="css" selected>Css</option>
+                <option value="js" selected>Javascript</option>
+                <option value="react" selected>React</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</div>
+</body>
+
+</html>
